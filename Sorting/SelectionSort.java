@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class SelectionSort {
     public static void main(String[] args) {
@@ -8,6 +10,11 @@ public class SelectionSort {
         System.out.println(arr);
     }
 
+    /**
+     * Sorts the given list using selection sort.
+     *
+     * @param arr The list to be sorted.
+     */
     public void selectionSort(ArrayList<Integer> arr) {
         int n = arr.size();
         for (int i = 0; i < n - 1; i++) {
@@ -22,5 +29,4 @@ public class SelectionSort {
             }
         }
     }
-
 }
